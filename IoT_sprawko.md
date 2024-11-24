@@ -65,7 +65,7 @@ Następnie należy przejść do "Access keys" i pamietać o skopiowaniu "Connect
 #### 1.6 Aplikacja mobilna
 Aplikacja mobilna napisana została przy użyciu frameworka React Native oraz Expo w języku TypeScript. PhotoGallery jest głównym komponentem aplikacji. Po jej otwarciu zdjęcia wczytywane są automatycznie, lecz nie są automatycznie odświeżane i w przypadku nadejścia nowego zdjęcia należy ręcznie odświeżyć stronę przesuwając palcem w dół do ukazania się kółka ładowania. Obok zdjęć znajduje się data oraz godzina ich utworzenia.
 
-![Mobile app](images/mobile-app.jpg)
+![Mobile app](images/mobile-app.JPG)
 
 ```
 import React, { useEffect, useState } from 'react';
